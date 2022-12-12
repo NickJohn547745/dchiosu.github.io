@@ -1,1 +1,91 @@
-Hello World
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Delta Chi OSU</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-amber.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .shieldBackground {
+            background-image: url("https://www.deltachi.org/wp-content/uploads/2021/04/hero.png");
+            background-size: 100vw;
+        }
+
+        .extendedHeader {
+            min-height: 10vh;
+        }
+
+        .logo {
+            height: 7vh;
+        }
+
+        .mdl-layout__drawer-button {
+            top: calc(10vh - 72px);
+            left: 8px;
+            background-color: #cc2a32 !important;
+        }
+
+    </style>
+    <style>
+        .demo-card-wide.mdl-card {
+            min-width: 80vw;
+            left: calc(50% - 80vw / 2);
+            position: absolute;
+        }
+
+        .demo-card-wide > .mdl-card__title {
+            align-content:center;
+            color: #fff;
+            height: 176px;
+            background: url('https://offcampus.osu.edu/posts/vendors/properties/dx-landscape-big.jpg') center / cover;
+        }
+
+        .demo-card-wide > .mdl-card__menu {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header extendedHeader shieldBackground">
+            <div class="mdl-layout__header-row extendedHeader">
+                <!-- Title -->
+                <span class="mdl-layout-title">
+                    <img class="logo" src="logo.png" />
+                </span>
+            </div>
+        </header>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Welcome to DChi OSU</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    This site is currently under construction. More Content is coming soon!
+                </div>
+            </div>
+        </main>
+
+    </div>
+    
+</body>
+</html>
+
